@@ -1,5 +1,5 @@
 
-# On-Generating-Plausible-Counterfactual-and-Semi-Factual-Explanations-For-Deep-Learning-Supplementary-Code
+# On Generating Plausible Counterfactual and Semi-Factual Explanations for Deep Learning
 
 ![alt text](https://github.com/EoinKenny/AAAI-2021/blob/master/imgs/overview.png)
 
@@ -29,10 +29,9 @@ It will be possible to run the 'run_counterfactual_expt.py' file with this envir
 
 Since I cannot recreate the full experiments, I have only included the files necessary to generate explanations for the incorrect classifications on MNIST, to simlify the repo.
 
-==================================================
-Jupyter Notebook
-==================================================
 
+
+# Jupyter Notebook
 The notebook above 'Example Explanation on MNIST.ipynb' is probabaly what you want to focus on. I provide step-by-step instructions on how to generate explanations with PIECE for MNIST, along with an example and all latent inputs for the GAN saved which saves you a lot of time.
 
 # AAAI-2021
