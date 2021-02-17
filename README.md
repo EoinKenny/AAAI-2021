@@ -1,7 +1,7 @@
 
 # On-Generating-Plausible-Counterfactual-and-Semi-Factual-Explanations-For-Deep-Learning-Supplementary-Code
 
-![alt text](http://url/to/img.png)
+![alt text](https://github.com/EoinKenny/AAAI-2021/blob/master/imgs/overview.png)
 
 
 This repo is for our paper "On Generating Plausilbe Counterfactual and Semi-Factual Explanations for Deep Learning" at AAAI-2021. The paper link is here
