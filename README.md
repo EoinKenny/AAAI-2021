@@ -1,4 +1,4 @@
-# AAA!-2021: On Generating Plausible Counterfactual and Semi-Factual Explanations for Deep Learning
+# AAAI-2021: On Generating Plausible Counterfactual and Semi-Factual Explanations for Deep Learning
 
 
 This repository is the official implementation "On Generating Plausible Counterfactual and Semi-Factual Explanations for Deep Learning" (https://ojs.aaai.org/index.php/AAAI/article/view/17377). 
