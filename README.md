@@ -3,6 +3,8 @@
 
 This repository is the official implementation "On Generating Plausible Counterfactual and Semi-Factual Explanations for Deep Learning" (https://ojs.aaai.org/index.php/AAAI/article/view/17377). 
 
+An earlier pre-print version is available here (https://arxiv.org/pdf/2009.06399.pdf).
+
 ![alt text](https://github.com/EoinKenny/AAAI-2021/blob/master/imgs/overview.png)
 
 
