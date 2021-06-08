@@ -1,4 +1,4 @@
-# On Generating Plausible Counterfactual and Semi-Factual Explanations for Deep Learning
+# AAA!-2021: On Generating Plausible Counterfactual and Semi-Factual Explanations for Deep Learning
 
 
 This repository is the official implementation "On Generating Plausible Counterfactual and Semi-Factual Explanations for Deep Learning" (https://ojs.aaai.org/index.php/AAAI/article/view/17377). 
@@ -33,7 +33,7 @@ python run_counterfactual_expt.py
 
 CEM and Proto-CF do not run (I commented them out of the python file) as there is some error in the Alibi installation which has cropped up in the year since I ran the initial experiments, unfortunately this is beyond my control to fix.
 
-## Pre-trained Models
+## Needed Files to Download
 
 You can download pretrained files needed here:
 
