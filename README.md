@@ -22,11 +22,25 @@ pip install -r requirements.txt
 
 
 
+## Needed Files to Download
+
+You can download pretrained files needed here:
+
+- https://drive.google.com/drive/folders/1GfL4dlztWrxjZoJhShlBJW8zdVS1iT3D?usp=sharing
+
+Put 'distribution data' in the data folder. Put 'pred_features.pickle' in the data folder. Put 'generator.pth' in the weights folder.
+
+
+
+
+
 
 ## Generating An Explanation
 Use the "Example Explanation on MNIST" notebook for a comprehensive overview of the algorithm. This shows from start to finish how to use PIECE. You must start by collecting the training data and modelling the statistical hurdle models. Then find exceptional features, modify them, and generate the explanation with the help from a GAN.
 
 ![alt text](https://github.com/EoinKenny/AAAI-2021/blob/master/imgs/cifar.png)
+
+![alt text](https://github.com/EoinKenny/AAAI-2021/blob/master/imgs/mnist.png)
 
 
 
@@ -46,14 +60,6 @@ CEM and Proto-CF do not run (I commented them out of the python file) as there i
 
 
 
-
-## Needed Files to Download
-
-You can download pretrained files needed here:
-
-- https://drive.google.com/drive/folders/1GfL4dlztWrxjZoJhShlBJW8zdVS1iT3D?usp=sharing
-
-Put 'distribution data' in the data folder. Put 'pred_features.pickle' in the data folder. Put 'generator.pth' in the weights folder.
 
 
 
