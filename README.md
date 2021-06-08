@@ -19,6 +19,9 @@ source myenv/bin/activate
 pip install -r requirements.txt
 ```
 
+## Generating An Explanation
+Use the "Example Explanation on MNIST" notebook for a comprehensive overview of the algorithm. This shows from start to finish how to use PIECE. You must start by collecting the training data and modelling the statistical hurdle models. Then find exceptional features, modify them, and generate the explanation with the help from a GAN.
+
 
 ## Evaluation
 
