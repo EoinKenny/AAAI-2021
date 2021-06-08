@@ -13,7 +13,6 @@ import time
 import tensorflow as tf
 import alibi
 
-from IPython.display import clear_output
 from torchvision import transforms
 from torchvision.utils import save_image
 from torch.autograd import Variable
@@ -116,7 +115,7 @@ def get_missclassificaiton(test_loader, cnn, random_number):
 
 		
 def get_data_for_feature(dist_data, target_class, feature_map_num):
-	data = np.array(dist_data[target_class])
+	data = np.array(dist_data[target_class]['activations'])
 	data = data.T[feature_map_num].T.reshape(data.shape[0],1)
 	return data
 
@@ -128,12 +127,13 @@ def get_distribution_name(dist):
 		return dist.rv.name
 
 	
-def acquire_feature_probabilities(dist_data, target_class, cnn, original_query_img=None, alpha=0.05):
+def acquire_feature_probabilities(target_class, cnn, original_query_img=None, alpha=0.05):
 	query_features = cnn(original_query_img)[1][0]
 	digit_weights = cnn.classifier[0].weight[target_class]
 
-	# with open('data/pickles/pred_features.pickle', 'rb') as handle:
-	# 	dist_data = pickle.load(handle)
+	with open('data/pred_features.pickle', 'rb') as handle:
+		dist_data = pickle.load(handle)
+
 
 	fail_results = list()
 	succeed_results = list()

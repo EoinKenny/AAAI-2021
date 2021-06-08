@@ -104,9 +104,9 @@ def optim_Proto_Explanation(query_idx):
 
 	X = x_test[query_idx].reshape((1,) + x_test[query_idx].shape)
 
-	cnn_proto = load_model('weights/keras_cnn.h5')
-	ae_proto = load_model('weights/mnist_ae.h5')
-	enc_proto = load_model('weights/mnist_enc.h5')
+	cnn_proto = load_model('weights/keras_cnn.h5', compile=False)
+	ae_proto = load_model('weights/mnist_ae.h5', compile=False)
+	enc_proto = load_model('weights/mnist_enc.h5', compile=False)
 
 	shape = (1,) + x_train.shape[1:]
 	gamma = 100.
@@ -145,8 +145,8 @@ def optim_CEM_Explanation(query_idx):
 
 	X = x_test[query_idx].reshape((1,) + x_test[query_idx].shape)
 	
-	cnn_cem = load_model('weights/keras_cnn.h5')
-	ae_cem = load_model('weights/mnist_ae.h5')
+	cnn_cem = load_model('weights/keras_cnn.h5', compile=False)
+	ae_cem = load_model('weights/mnist_ae.h5', compile=False)
 
 	mode = 'PN'  
 	shape = (1,) + x_train.shape[1:]  

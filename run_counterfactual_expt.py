@@ -90,7 +90,7 @@ for rand_num in range(1, 42):
 
 
 
-	for name in ['PIECE', 'Min-Edit', 'C-Min-Edit', 'CEM', 'Proto-CF']:
+	for name in ['PIECE', 'Min-Edit', 'C-Min-Edit']:  # 'CEM', 'Proto-CF']:
 
 		print(" ")
 		print("-------------------------------")
